@@ -1,12 +1,10 @@
 
 
-import React, {useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Sidebar from './sidebar'
 import { Container } from 'react-bootstrap'
 import axios from 'axios';
-
 import { useParams } from 'react-router-dom';
-import Input from '../../shared/input';
 
 function Details() {
     let [user,setUser]=useState({});
