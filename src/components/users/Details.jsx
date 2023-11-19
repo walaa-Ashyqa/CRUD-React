@@ -1,13 +1,13 @@
 
 
-import React, { useEffect, useState } from 'react'
+import React, {useState } from 'react'
 import Sidebar from './sidebar'
 import { Container } from 'react-bootstrap'
 import axios from 'axios';
-import { toast } from 'react-toastify';
-import { useNavigate, useParams } from 'react-router-dom';
+
+import { useParams } from 'react-router-dom';
 import Input from '../../shared/input';
-import uservalidation from '../../validation/uservalidation';
+
 function Details() {
     let [user,setUser]=useState({});
     const {id} =useParams('id');
