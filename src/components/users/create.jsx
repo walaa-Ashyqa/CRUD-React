@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap'
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
-import Input from '../../shared/input';
+import Input from '../../shared/Input';
 import uservalidation from '../../validation/uservalidation';
 import Loader from '../../shared/Loader';
 function create() {
